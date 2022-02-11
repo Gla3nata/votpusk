@@ -1,0 +1,288 @@
+.container {
+    max-width: 1210px;
+    width: 100%;
+   
+}
+
+.map-calculator {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.map-calculator__content {
+    padding: 25px 35px 20px;
+    background-color:#F5F6F8;
+    border: 1px solid #B3B4B6;
+    border-radius: 10px;
+}
+.map-calculator__tabs {
+    margin-top: 20px;
+}
+.map-calculator__btn {
+    padding: 0 15px;
+    min-height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    max-width: 133px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.map-calculator__link{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.map-calculator__btn_icon {
+    margin-right: 10px;
+}
+.map-calculator__btn_text {
+    font-size: 14px;
+}
+
+.tracker{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #200E32;
+    font-weight: 400;
+    line-height: 1.16;
+    margin-bottom: 50px;
+}
+
+.tracker__header {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.title{
+    font-weight: 900;
+    font-size: 25px;
+    margin: 0;
+}
+.subtitle {
+    font-size: 12px;
+    color: #969696;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.tracker__box_item {
+    max-width: 887px;
+    width: 100%;
+    margin: 0 auto 20px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.distance {
+    max-width: 460px;
+    width: 100%;
+    padding: 0 13px;
+}
+.distance__time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.distance__time_begin {
+    font-weight: bold;
+}
+.distance__time_duration {
+    padding-top: 16px;
+}
+
+.distance__time_end {
+    font-weight: bold;
+}
+.distance__img{
+    width: 100%;
+}
+
+.distance__city {  
+font-size: 12px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #969696;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 140px;
+}
+.price_text {
+    font-size: 12px; 
+}
+.price_cost {
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+color: #F8991D;
+}
+.person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 600px);
+}
+.person__avatar {
+    margin: 0 20px;
+}
+.person__name {
+font-weight: bold;
+font-size: 16px;
+margin-bottom: 7px;
+
+}
+
+.tracker__btn {
+    min-height: 50px;
+    background: #FCEFDF;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8991D;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+.calendar {
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #200E32;
+    font-weight: 400;
+    line-height: 1.16;
+}
+
+.calendar__header {
+    margin-bottom: 30px;
+}
+
+.calendar__title {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #225999;
+    margin-bottom: 20px;
+}
+
+#datepicker .ui-widget.ui-widget-content{
+    width: 347px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#datepicker .ui-datepicker .ui-datepicker-title{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin:12px;
+}
+
+#datepicker .ui-datepicker-prev,
+#datepicker .ui-datepicker-next {
+    cursor: pointer;
+    top:5px;
+}
+
+#datepicker .ui-datepicker-prev{
+ left: 275px;
+}
+#datepicker .ui-datepicker-next {
+ right: 10px;
+}
+.ui-datepicker .ui-datepicker-header{
+    background:transparent;
+    border: none;
+}
+
+#datepicker .ui-datepicker-prev span{
+    width: 16px;
+    height: 16px;
+    background-image: url(/image/arrow.svg);
+    background-position: 0 0;
+}
+#datepicker .ui-datepicker-next span{
+    width: 16px;
+    height: 16px;
+    background-image: url(/image/arrow-right.svg);
+    background-position: 0 0;
+}
+
+#datepicker .ui-state-default, .ui-widget-content .ui-state-default{
+    background:transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#datepicker .ui-state-active, .ui-widget-content .ui-state-active{
+    background: #F8991D;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(123, 97, 255, 0.2);
+    border-radius: 10px;
+}
+
+#datepicker .ui-datepicker td{
+    padding: 0 2px;
+}
+#datepicker .ui-datepicker td a{
+    padding: 0;
+}
+#start{
+    visibility: hidden;
+}
+
+.find{
+    max-width: 339px;
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+    background: #F8991D;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    .map-calculator__link span{
+        display: none;
+    }
+    .map-calculator__btn{
+        max-width: 54px;
+    }
+    .tracker__box_item{
+        flex-wrap: wrap;
+    }
+    .distance, 
+    .price,
+    .person{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+ 
