@@ -217,14 +217,27 @@ margin-bottom: 7px;
 #datepicker .ui-datepicker-prev span{
     width: 16px;
     height: 16px;
-    background-image: url(../image/arrow.svg);
+    background-image: url(../image/arrow-left.svg);
     background-position: 0 0;
+    opacity: 0.2;
 }
 #datepicker .ui-datepicker-next span{
     width: 16px;
     height: 16px;
     background-image: url(../image/arrow-right.svg);
     background-position: 0 0;
+    opacity: 0.2;
+}
+
+#datepicker .ui-datepicker-prev span:hover,
+#datepicker .ui-datepicker-next span:hover{
+    opacity: 1;
+}
+#datepicker .ui-state-hover, 
+#datepicker .ui-widget-contet .ui-state-hover,
+#datepicker .ui-widget-header .ui-state-hover{
+    background: #fff;
+    border: none;
 }
 
 #datepicker .ui-state-default, .ui-widget-content .ui-state-default{
