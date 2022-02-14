@@ -236,12 +236,20 @@ margin-bottom: 7px;
     align-items: center;
     justify-content: center
 }
+#datepicker  .ui-widget-content .ui-state-default:hover{
+    background: #F8991D;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(123, 97, 255, 0.2);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
 
 #datepicker .ui-state-active, .ui-widget-content .ui-state-active{
     background: #F8991D;
     border: none;
     box-shadow: 0px 0px 20px rgba(123, 97, 255, 0.2);
     border-radius: 10px;
+  
 }
 
 #datepicker .ui-datepicker td{
