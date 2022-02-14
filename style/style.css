@@ -180,6 +180,10 @@ margin-bottom: 7px;
     margin-bottom: 20px;
 }
 
+#datepicker{
+min-height: 360px;
+}
+
 #datepicker .ui-widget.ui-widget-content{
     width: 347px;
     background: #FFFFFF;
